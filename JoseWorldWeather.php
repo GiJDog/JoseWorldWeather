@@ -30,7 +30,7 @@ add_shortcode( 'world', 'get_world_json_shortcode' );
 
 function get_world_json_shortcode($atts, $content = null){
 
-    $url = 'http://api.worldweatheronline.com/premium/v1/weather.ashx?key=dcb05bcdd89e45a182600557171911&q=34.6463901,-102.7143376&num_of_days=1&tp=3&format=json';
+    $url = 'http://api.worldweatheronline.com/premium/v1/weather.ashx?key=xxxxxxxxxxxxxxxxxxxxxx&q=yy,zz&num_of_days=1&tp=3&format=json';
 
     //Get JSON into array
     $data = get_world_json($url);
